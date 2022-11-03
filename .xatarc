@@ -1,0 +1,7 @@
+{
+  "databaseURL": "https://Teri-Eyenike-s-workspace-14frfm.us-east-1.xata.sh/db/job_board",
+  "codegen": {
+    "output": "src/xata.js",
+    "moduleType": "esm"
+  }
+}
