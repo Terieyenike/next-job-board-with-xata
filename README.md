@@ -13,4 +13,3 @@ Teri Eyenike
 - NextJS
 - Cloudinary
 - Xata
-- Firestore Firebase
