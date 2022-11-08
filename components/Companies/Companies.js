@@ -20,7 +20,14 @@ const LeadingCompanies = () => {
 
         <div className='my-5 flex items-center'>
           {images.map(({ img, id, alt }) => (
-            <Image key={id} src={img} alt={alt} width={50} height={50} />
+            <Image
+              key={id}
+              src={img}
+              alt={alt}
+              width={50}
+              height={50}
+              className='flex-shrink-0'
+            />
           ))}
         </div>
       </section>
