@@ -13,3 +13,4 @@ Teri Eyenike
 - NextJS
 - Cloudinary
 - Xata
+- Tailwind CSS
