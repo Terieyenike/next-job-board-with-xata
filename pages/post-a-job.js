@@ -24,8 +24,6 @@ const PostJob = () => {
   const { title, company, location, technologies, website, description, date } =
     formFields;
 
-
-
   const submit = () => {
     fetch('/api/add-job', {
       method: 'POST',
@@ -48,20 +46,15 @@ const PostJob = () => {
     setFormFields(defaultFormFields);
   };
 
-
-
-  const handleSubmit = (e, selectedOption) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
     submit();
     resetFormFields();
-
-
   };
 
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormFields({ ...formFields, [name]: value });
-
   };
 
   return (
