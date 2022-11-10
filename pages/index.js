@@ -8,7 +8,7 @@ export default function Home({ jobs }) {
   return (
     <div>
       <Head>
-        <title>Create Next App</title>
+        <title>Job board</title>
         <meta name='description' content='Job board app' />
         <link rel='icon' href='/favicon.ico' />
       </Head>
@@ -23,7 +23,6 @@ export default function Home({ jobs }) {
 export async function getServerSideProps() {
   const xata = await getXataClient();
   const jobs = await xata.db.Jobs.getAll();
-
 
   return {
     props: {
