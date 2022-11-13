@@ -10,7 +10,6 @@ const handler = async (req, res) => {
     title,
     company,
     location,
-
     website,
     description,
     technologies,

@@ -4,6 +4,10 @@ This job board gives users the opportunity to view recent jobs in the market, bu
 
 <img width="1242" alt="all dev jobs" src="https://user-images.githubusercontent.com/25850598/200447477-849a94a1-ef41-4e9d-80a8-83a06f96f76e.png">
 
+## Demo
+
+Preview the app [here](https://next-job-board-with-xata.vercel.app/)
+
 ## Author
 
 Teri Eyenike
