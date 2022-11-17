@@ -98,6 +98,7 @@ const PostJob = () => {
                 name='title'
                 id='title'
                 value={title}
+                required
                 onChange={handleChange}
                 placeholder='job title'
                 className='border-2 p-1 w-full mt-1'
@@ -111,6 +112,7 @@ const PostJob = () => {
                 type='text'
                 name='company'
                 id='company'
+                required
                 value={company}
                 onChange={handleChange}
                 placeholder='Company'
@@ -125,6 +127,7 @@ const PostJob = () => {
                 type='text'
                 name='location'
                 id='location'
+                required
                 value={location}
                 onChange={handleChange}
                 placeholder='location'
@@ -140,6 +143,7 @@ const PostJob = () => {
                 type='text'
                 name='technologies'
                 id='technologies'
+                required
                 value={technologies}
                 placeholder='JavaScript, Java, PHP'
                 onChange={handleChange}
@@ -155,6 +159,7 @@ const PostJob = () => {
                 type='url'
                 name='website'
                 id='website'
+                required
                 value={website}
                 onChange={handleChange}
                 placeholder='https://www.example.com'
